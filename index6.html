@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="index5.html" method="post">
+        <label for="nomeCompleto">Nome Completo</label>
+        <input type="text" id="nomeCompleto" name="nomeCompleto">
+
+        <p> &nbsp;</p>
+        
+        <label>
+            E-mail
+            <input type="email" name="emailDoUsuario">
+        </label>
+
+        <p> &nbsp;</p>
+
+        <label for="dataDeNascimento">Data de nascimento</label>
+        <input type="date" id="dataDeNascimento" name="dataDeNascimento">
+
+        <p> &nbsp;</p>
+
+        <label for="idade">Idade</label>
+        <input type="number" id="Idade" name="idade">
+
+        <p> &nbsp;</p>
+
+        <label for="senha">Senha</label>
+        <input type="password" id="senha" name="senha">
+
+        <p> &nbsp;</p>
+
+        <label for="curriculo">Curriculo</label>
+        <input type="file" id="curriculo" name="curriculo">
+
+        <p> &nbsp;</p>
+
+        <label for="telefole">Telefone</label>
+        <input type="tel" id="telefole" name="telefone">
+
+        <p> &nbsp;</p>
+        
+        <label for="linck">Linck</label>
+        <input type="url" id="linck" name="linck">
+
+        <p> &nbsp;</p>
+        
+        <label for="tempo">Tempo</label>
+        <input type="time" id="tempo" name="tempo">
+        
+        <p> &nbsp;</p>
+        
+        <label for="seletorDeDataHora">Seletor de data e hora</label>
+        <input type="datetime-local" id="seletorDeDataHora" name="seletorDeDataHora">
+
+        <p> &nbsp;</p>
+        
+        <label for="mes">Mês</label>
+        <input type="month" id="mes" name="mes">
+
+        <p> &nbsp;</p>
+
+        <label for="semana">Semana</label>
+        <input type="week" id="semana" name="semana">
+
+        <p> &nbsp;</p>
+
+        <label for="cor">Cor</label>
+        <input type="color" id="cor" name="cor">
+
+        <p> &nbsp;</p>
+
+        <label for="escala">Escala</label>
+        <input type="range" id="escala" name="escala">
+
+        <p> &nbsp;</p>
+
+        <label for="pesquisa">Mês</label>
+        <input type="search" id="pesquisa" name="pesquisa">
+
+        <p> &nbsp;</p>
+
+        <!--Checkbox-->
+        <p>Quais tecnologias você conhece?</p>
+        <label><input type="checkbox" name="tecnologia" value="html">
+            HTML
+        </label>
+        <label>
+            <input type="checkbox" name="tecnologia" value="javascript">
+            javascript
+        </label>
+        <label>
+            <input type="checkbox" name="tecnologia" value="css">
+            CSS
+        </label>
+<label>
+            <input type="checkbox" name="tecnologia" value="js">
+            JS
+        </label>
+
+        <p>Qual é o seu turno de estudo?</p>
+        <input type="radio" name="turno" value="manha">
+        Manhã
+
+        <input type="radio" name="turno" value="tarde">
+        Tarde
+
+        <input type="radio" name="turno" value="noite">
+        Noite
+
+        <p> &nbsp;</p>
+
+        <label for="curso">Curso</label>
+        <select id="cuso" name="curso">
+            <option value="">Selecione</option>
+             <option value="informatica">Informatica</option>
+             <optgroup label="Gestão">
+                <option value="adm">Adiministraçaõ</option>
+                <option value="contabeis">Ci~encias contabeis</option>
+             </optgroup>
+        </select>
+
+        <p> &nbsp;</p>
+        
+        <label for="cidade"></label>
+        <input list="cidades" id="cidade" name="cidade">
+        <datalist id="cidades">
+            <option value="Chapecó">
+            <option value="Joenvillhe">
+            <option value="Florianópolis">
+        </datalist>
+
+
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
